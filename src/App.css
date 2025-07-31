@@ -1,0 +1,59 @@
+/* App.css */
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+  background-color: #f0f0f0;
+  color: #1f2937;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.body {
+  background-color: #ffffff;
+  padding: 30px;
+  border-radius: 16px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.status {
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+  font-weight: 600;
+  color: #111827;
+}
+
+.board-row {
+  display: flex;
+  justify-content: center;
+}
+
+.move-list {
+  margin-top: 25px;
+}
+
+.move-list p {
+  margin-bottom: 10px;
+  font-weight: 600;
+  color: #374151;
+}
+
+.move-list button {
+  margin: 4px;
+  padding: 8px 14px;
+  font-size: 0.9rem;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  background-color: #3b82f6;
+  color: white;
+  transition: background-color 0.3s ease;
+}
+
+.move-list button:hover {
+  background-color: #2563eb;
+}
